@@ -42,25 +42,28 @@ header{
 
 .url_img{
     border: none;
+    border-radius: 5px;
     margin: 10px;
     box-shadow: 0 4px 8px rgba(17, 11, 11, 0.3);
 }
 
 .btn1{
-    height: 40px;
-    width: 80px;
-    background-color: rgb(14, 6, 6);
+    height: 50px;
+    width: 90px;
+    margin: 5px;
+    background-color: rgb(6, 53, 45);
     color: #eeeeee;
     border: none;
     text-align: center;
-    font-size: small;
+    font-size: 15px;
+    font-weight: bold;
     border-radius: 10px;
     box-shadow: 1px 1px 1px 1px #eeeeee;
 }
 .div_btn{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: Row;
     padding: 10px;
     justify-content: center;
     align-content: center;
