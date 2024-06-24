@@ -1,0 +1,122 @@
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 6rem;
+    box-sizing: inherit;
+}
+header{
+    height: 100px;
+    background-color: #eeeeee;
+    text-align: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+  z-index: 1000;
+}
+.title{
+    display: inline-block;
+    letter-spacing: 7px;
+    text-decoration: underline;
+}
+.remove_content img{
+    border: none;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+
+}
+
+.main{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(168, 196, 153);
+}
+
+.url_img{
+    border: none;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(17, 11, 11, 0.3);
+}
+
+.btn1{
+    height: 40px;
+    width: 80px;
+    background-color: rgb(14, 6, 6);
+    color: #eeeeee;
+    border: none;
+    text-align: center;
+    font-size: small;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px #eeeeee;
+}
+.div_btn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(168, 196, 153);
+}
+
+.text-heading{
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+
+.footer{
+    height: 100px;
+    color: #eeeeee;
+    background-color: rgb(14, 6, 6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+@media screen and (max-width:400px) {
+    .text-heading{
+        font-size: 15px;
+        letter-spacing: 3px;
+
+}
+.footer{
+    height: 80px;
+    font-size: smaller;
+}
+.remove_content img{
+    height: 200px;
+    width: 200px;
+}
+.url_img{
+    height: 100px;
+    width: 100px;
+}
+.title{
+    font-size: large;
+    font-weight: lighter;
+}
+}
+
+@media screen and (max-width:250px) {
+    .title{
+        font-size: smaller;
+    }
+    .text-heading{
+        font-size:10px;
+        letter-spacing: 3px;
+
+}}
